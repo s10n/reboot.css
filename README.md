@@ -3,6 +3,7 @@
 ```css
 html {
   box-sizing: border-box;
+  line-height: 1.15;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -36,6 +37,7 @@ input {
 // Document
 html {
   box-sizing: border-box;
+  line-height: 1.15;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -76,6 +78,11 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
+}
+
+p, ul, ol {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 b,
