@@ -1,17 +1,20 @@
+# reboot.css
 
-## reboot.css (initial, without normalize.css)
+## Initial
+
 ```css
 html {
   box-sizing: border-box;
   line-height: 1.15;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -32,7 +35,8 @@ input {
 ```
 
 
-## reboot.css (full, without normalize.css)
+## Full
+
 ```scss
 // Document
 html {
@@ -40,12 +44,13 @@ html {
   line-height: 1.15;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 // Body
@@ -134,18 +139,20 @@ input {
 ```
 
 
-## reboot.css (initial, with normalize.css)
+## Initial (with normalize.css)
+
 ```css
 html {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 button,
@@ -157,19 +164,21 @@ input {
 ```
 
 
-## reboot.css (full, with normalize.css)
+## Full (with normalize.css)
+
 ```scss
 // Document
 html {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 // Content grouping
